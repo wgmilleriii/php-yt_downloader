@@ -1,7 +1,7 @@
 <?php
 require('youtube-dl.class.php');
 try {
-    $mytube = new yt_downloader("http://www.youtube.com/watch?v=px17OLxdDMU", TRUE);
+    $mytube = new yt_downloader($video_url, TRUE);
 
     $video = $mytube->get_video();
     $path_dl = $mytube->get_downloads_dir();

@@ -76,4 +76,11 @@ interface cnfg
    *  where to save Ffmpeg log files to.
    */
   const Ffmpeg_LogsDir = 'logs/';
+
+
+  /**
+   *  Set the directory (absolute path, trailing slash!)
+   *  where to save Ffmpeg log files to.
+   */
+  const Video_Url = "http://www.youtube.com/watch?v=px17OLxdDMU";
 }
